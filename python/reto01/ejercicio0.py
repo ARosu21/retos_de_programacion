@@ -13,6 +13,26 @@ print(not True)
 print(not False)
 print(not not True)
 
+# Operadores artiméticos
+print(12+3) #Suma ambos valores
+print(12-3) #Resta ambos valores
+print(12*3) #Multiplica ambos valores
+print(12/3) #Divide ambos valores
+print(16%3) #Módulo de la división, devuelve el resto
+print(12**3) #Eleva a la potencia indicada
+print(18//5) #Divide y devuelve el resultado entero, sin decimales
+
+# Operadores relacionales
+print(12>3) #Valor de la izquierda mayor que la derecha, True
+print(12<3) #Valor de la izquierda menos que la derecha, True
+print(12==3) #Si ambos valores son iguales, True
+print(12>=3) #Valor de la izquierda mayor o igual que la derecha, True
+print(12<=3) #Valor de la izquierda menor o igual que la derecha, True
+print(12!=3) #Valor de la izquierda diferente a la derecha, True
+
+# Operadores bit a bit
+print()
+
 # Ahora vamos a crear ejemplos de los tipos de estructuras de control
 
 # Condicional if-elif-else
