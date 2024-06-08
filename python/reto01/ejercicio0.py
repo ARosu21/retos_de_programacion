@@ -31,7 +31,14 @@ print(12<=3) #Valor de la izquierda menor o igual que la derecha, True
 print(12!=3) #Valor de la izquierda diferente a la derecha, True
 
 # Operadores bit a bit
-print()
+a = 10 #1010
+b = 3 #0011
+print(a & b) #Hace el AND bit a bit de ambos números
+print(a | b) #Hace el OR bit a bit de ambos números
+print(a ^ b) #Hace eñ XOR bit a bit, si los dos son iguales 1 si son diferentes 0
+print(~a) #Hace el NOT bit a bit
+print(a >> 2) #Desplaza a la derecha los bits el número de veces indicado, en este caso 2 a la derecha y rellena con ceros
+print(a << 2) #Desplaza a la izquierda los bits el número de veces indicado, en este caso 2 a la derecha y rellena con ceros
 
 # Ahora vamos a crear ejemplos de los tipos de estructuras de control
 
