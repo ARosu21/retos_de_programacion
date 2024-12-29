@@ -66,7 +66,7 @@ while x < 5:
 
 # Sentencia try-except
 try:
-    if True = True:
+    if True == True:
         c = "cadena"
 except SyntaxError:
     print("Error de sintaxis")
